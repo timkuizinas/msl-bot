@@ -1,0 +1,17 @@
+[Run_Story:
+	[description: "Runs story."]
+	
+	[text:
+		name: "Chapter",
+		description: "Chapter account is on.",
+		default: "0",
+		data: "0"
+	]
+
+	[text:
+		name: "Section",
+		description: "Chapter section account is on.",
+		default: "0",
+		data: "0"
+	]
+]

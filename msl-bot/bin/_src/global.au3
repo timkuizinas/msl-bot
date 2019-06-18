@@ -55,7 +55,7 @@
     Global $d_iDesktopScaling = 100 ;Desktop scaling percentage. Recommended 100%.
 
 ;MSL variables/constants
-    Global Const $g_aScriptList = ["_Config", "_Hourly", "_Filter", "Farm Rare", "Farm Golem", "Farm Gem", "Farm Astromon", "Farm Guardian", "Farm Starstone"]
+    Global Const $g_aScriptList = ["_Config", "_Hourly", "_Filter", "Farm Rare", "Farm Golem", "Farm Gem", "Farm Astromon", "Farm Guardian", "Farm Starstone",  "Run Story"]
 
     Global Const $g_sScriptsURL = "https://raw.githubusercontent.com/GkevinOD/msl-bot/version-check/msl-bot/scripts.txt"
     Global Const $g_sNezzPosURL = "https://raw.githubusercontent.com/GkevinOD/msl-bot/version-check/msl-bot/nezz-locations.txt"

@@ -94,3 +94,7 @@ Func getEvent($sGetEvent = "~")
 	Log_Add($g_sErrorMessage, $LOG_ERROR)
 	Return "/dev/input/event7"
 EndFunc   ;==>getEvent
+
+Func adbSendText($stringToSend)
+	adbCommand("shell input text " &  $stringToSend)
+EndFunc
